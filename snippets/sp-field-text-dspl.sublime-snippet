@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<!-- SP:Field:$1 ||-->
+<div class="ms-formfieldcontainer">
+	<div class="ms-formfieldlabelcontainer">
+		<span class="ms-formfieldlabel">
+			<SharePointWebControls:FieldLabel runat="server" FieldName="$1" />
+		</span>
+	</div>
+	<div class="ms-formfieldvaluecontainer">
+		<SharePointWebControls:TextField FieldName="$1" runat="server"/>
+	</div>
+</div>
+<!--|| SP:Field:$1 -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>sp-field-text-dspl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
