@@ -10,8 +10,8 @@ If you don't see the AppData-Folder you set hidden folders to visible in your ex
 
 ### How To
 
-1. Type sp-field-`fieldname`
-2. Hit the "tab"-Key
+1. Type `sp-field-fieldname`
+2. Hit the `tab` - Key
 3. Enter your fieldname
 
 The Snippets add your field with field name to your code. 
@@ -20,7 +20,7 @@ The Snippets add your field with field name to your code.
 As Sharepoint shows your field only as plain data in display mode (whithout label and div containers as wrappers) which it will normally do,  but you want your pagelayout to show also a label in display mode you can use the same snippet with the post-fix "-dspl"
 f.E.: `sp-field-datetime-dspl`
 
-It will render your Sharepoint field with the same div's and CSS-classes like Sharepoint would do in edit mode so you only have to style your CSS once. 
+It will render your Sharepoint field with the same div's and CSS-classes Sharepoint uses in edit mode, so you only have to style your CSS once. 
 
 `<div class="ms-formfieldcontainer">  
 	<div class="ms-formfieldlabelcontainer">  
