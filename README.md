@@ -10,7 +10,7 @@ If you don't see the AppData-Folder you set hidden folders to visible in your ex
 
 ### How To
 
-1. Type `sp-field-"fieldtype"`
+1. Type `sp-field-fieldtype` - [fieldtype: bool|datetime|lookup|num|taxonomy|text|textarea|user]
 2. Hit the `tab` - Key
 3. Enter your fieldname
 
@@ -22,7 +22,7 @@ f.E.: `sp-field-datetime-dspl`
 
 It will render your Sharepoint field with the same div's and CSS-classes Sharepoint uses in edit mode, so you only have to style your CSS once. 
 
-`<div class="ms-formfieldcontainer">  
+```<div class="ms-formfieldcontainer">  
 	<div class="ms-formfieldlabelcontainer">  
 		<span class="ms-formfieldlabel">  
 			<SharePointWebControls:FieldLabel runat="server" FieldName="" />  
@@ -31,7 +31,7 @@ It will render your Sharepoint field with the same div's and CSS-classes Sharepo
 	<div class="ms-formfieldvaluecontainer">  
 		<SharePointWebControls:DateTimeField FieldName="" runat="server"/>  
 	</div>  
-</div>`
+</div>```
 
 **Available Snippets are:**
 * Boolean Field : `sp-field-bool` for edit-mode and `sp-field-bool-dspl` for display-mode
