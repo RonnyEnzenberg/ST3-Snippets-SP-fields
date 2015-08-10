@@ -10,7 +10,7 @@ If you don't see the AppData-Folder you set hidden folders to visible in your ex
 
 ### How To
 
-1. Type `sp-field-fieldname`
+1. Type `sp-field-"fieldtype"`
 2. Hit the `tab` - Key
 3. Enter your fieldname
 
