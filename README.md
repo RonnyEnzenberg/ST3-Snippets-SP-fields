@@ -22,16 +22,7 @@ f.E.: `sp-field-datetime-dspl`
 
 It will render your Sharepoint field with the same div's and CSS-classes like Sharepoint would do in edit mode so you only have to style your CSS once. 
 
-`div class="ms-formfieldcontainer">
-	<div class="ms-formfieldlabelcontainer">
-		<span class="ms-formfieldlabel">
-			<SharePointWebControls:FieldLabel runat="server" FieldName="" />
-		</span>
-	</div>
-	<div class="ms-formfieldvaluecontainer">
-		<SharePointWebControls:DateTimeField FieldName="" runat="server"/>
-	</div>
-</div>`
+`<div class="ms-formfieldcontainer">  <div class="ms-formfieldlabelcontainer">  <span class="ms-formfieldlabel">  <SharePointWebControls:FieldLabel runat="server" FieldName="" />  </span>  </div>  <div class="ms-formfieldvaluecontainer">  <SharePointWebControls:DateTimeField FieldName="" runat="server"/>  </div>  </div>`
 
 I hope you enjoy this. Let me know if you find some issues.
 
